@@ -1,0 +1,73 @@
+/* 登录页 */
+"login.title" = "登录";
+"login.username" = "用户名";
+"login.password" = "密码";
+"login.confirmPassword" = "确认密码";
+"login.loginButton" = "登录";
+"login.biometricLogin" = "生物识别登录";
+"login.register" = "注册";
+"login.alreadyHaveAccount" = "已有账号? 登录";
+"login.forgotPassword" = "忘记密码?";
+"login.error.invalidCredentials" = "用户名或密码错误";
+"login.error.network" = "网络连接失败";
+"login.error.general" = "登录失败，请重试";
+
+/* 注册页 */
+"register.error.usernameEmpty" = "请输入用户名";
+"register.error.passwordEmpty" = "请输入密码";
+"register.error.passwordTooShort" = "密码长度不能少于6位";
+"register.error.confirmPasswordEmpty" = "请确认密码";
+"register.error.passwordMismatch" = "两次输入的密码不一致";
+"register.error.usernameExists" = "该用户名已存在";
+"register.error.failed" = "注册失败，请重试";
+
+/* 首页 */
+"home.title" = "首页";
+"home.welcome" = "欢迎回来";
+"home.notLoggedIn" = "未登录状态";
+"home.featured" = "精选内容";
+"home.popular" = "热门内容";
+"home.refresh" = "刷新";
+"home.loading" = "加载中...";
+"recently.updated.popular.repos" = "最近更新的热门仓库 (star > 10000)";
+
+/* 搜索页 */
+"search.title" = "搜索";
+"search.placeholder" = "搜索内容...";
+"search.noResults" = "没有找到相关内容";
+"search.recent" = "最近搜索";
+"search.clearHistory" = "清除历史";
+
+/* 个人主页 */
+"profile.title" = "个人主页";
+"profile.logout" = "退出登录";
+"profile.settings" = "设置";
+"profile.myContent" = "我的内容";
+"profile.favorites" = "收藏";
+"profile.about" = "关于";
+"profile.editProfile" = "编辑资料";
+
+/* 通用 */
+"error.title" = "出错了";
+"error.message" = "发生了一些错误，请稍后重试";
+"error.retry" = "重试";
+"error.back" = "返回";
+"ok" = "确定";
+"cancel" = "取消";
+
+/* Loading */
+"loading.search" = "正在搜索...";
+"loading.loading" = "正在加载...";
+"loading.cancel.search" = "取消搜索";
+"loading.cancel.loading" = "取消加载";
+
+/* 生物识别 */
+"biometric.prompt" = "使用生物识别登录";
+"biometric.fallback" = "使用密码登录";
+"biometric.notAvailable" = "生物识别不可用";
+"biometric.notEnrolled" = "未设置生物识别";
+"biometric.authenticationFailed" = "生物识别失败";
+
+/* 图片组件 */
+"image.loading" = "图片加载中...";
+"image.failed" = "图片加载失败";

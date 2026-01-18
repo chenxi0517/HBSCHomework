@@ -6,8 +6,51 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		72868A669D21C3A2DF8E072C /* Pods_HBSCHomeworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73DA99BD24AA4F8402A10A4 /* Pods_HBSCHomeworkTests.framework */; };
+		B5391F9B37DBC7885F442812 /* Pods_HBSCHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F353A1DE55726D497D9227 /* Pods_HBSCHomework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24CE56662F1BDBC00083F6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248D78602F1A281E00106D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248D78672F1A281E00106D14;
+			remoteInfo = HBSCHomework;
+		};
+		24CE56C42F1BE1FE0083F6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248D78602F1A281E00106D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248D78672F1A281E00106D14;
+			remoteInfo = HBSCHomework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		248D123E2F1B39890069C02B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		20FF982AD006DB2B3FE2B50D /* Pods-HBSCHomeworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBSCHomeworkTests.debug.xcconfig"; path = "Target Support Files/Pods-HBSCHomeworkTests/Pods-HBSCHomeworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		248D78682F1A281E00106D14 /* HBSCHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBSCHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CE56622F1BDBC00083F6B6 /* HBSCHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSCHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CE56BE2F1BE1FE0083F6B6 /* HBSCHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBSCHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F353A1DE55726D497D9227 /* Pods_HBSCHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBSCHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C74509F9831089DE7E08DB /* Pods-HBSCHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBSCHomework.debug.xcconfig"; path = "Target Support Files/Pods-HBSCHomework/Pods-HBSCHomework.debug.xcconfig"; sourceTree = "<group>"; };
+		87DD8255420887930962B259 /* Pods-HBSCHomeworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBSCHomeworkTests.release.xcconfig"; path = "Target Support Files/Pods-HBSCHomeworkTests/Pods-HBSCHomeworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF591D44209E59E661E6822C /* Pods-HBSCHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBSCHomework.release.xcconfig"; path = "Target Support Files/Pods-HBSCHomework/Pods-HBSCHomework.release.xcconfig"; sourceTree = "<group>"; };
+		E73DA99BD24AA4F8402A10A4 /* Pods_HBSCHomeworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBSCHomeworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -29,10 +72,36 @@
 			path = HBSCHomework;
 			sourceTree = "<group>";
 		};
+		24CE56632F1BDBC00083F6B6 /* HBSCHomeworkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HBSCHomeworkTests;
+			sourceTree = "<group>";
+		};
+		24CE56BF2F1BE1FE0083F6B6 /* HBSCHomeworkUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HBSCHomeworkUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		248D78652F1A281E00106D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5391F9B37DBC7885F442812 /* Pods_HBSCHomework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CE565F2F1BDBC00083F6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72868A669D21C3A2DF8E072C /* Pods_HBSCHomeworkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CE56BB2F1BE1FE0083F6B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,7 +115,11 @@
 			isa = PBXGroup;
 			children = (
 				248D786A2F1A281E00106D14 /* HBSCHomework */,
+				24CE56632F1BDBC00083F6B6 /* HBSCHomeworkTests */,
+				24CE56BF2F1BE1FE0083F6B6 /* HBSCHomeworkUITests */,
 				248D78692F1A281E00106D14 /* Products */,
+				6254EEDA4E4F8D41AAF8DEC5 /* Pods */,
+				F20012AC3B70EB7E46C870F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +127,30 @@
 			isa = PBXGroup;
 			children = (
 				248D78682F1A281E00106D14 /* HBSCHomework.app */,
+				24CE56622F1BDBC00083F6B6 /* HBSCHomeworkTests.xctest */,
+				24CE56BE2F1BE1FE0083F6B6 /* HBSCHomeworkUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6254EEDA4E4F8D41AAF8DEC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80C74509F9831089DE7E08DB /* Pods-HBSCHomework.debug.xcconfig */,
+				DF591D44209E59E661E6822C /* Pods-HBSCHomework.release.xcconfig */,
+				20FF982AD006DB2B3FE2B50D /* Pods-HBSCHomeworkTests.debug.xcconfig */,
+				87DD8255420887930962B259 /* Pods-HBSCHomeworkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F20012AC3B70EB7E46C870F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F353A1DE55726D497D9227 /* Pods_HBSCHomework.framework */,
+				E73DA99BD24AA4F8402A10A4 /* Pods_HBSCHomeworkTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248D787B2F1A282100106D14 /* Build configuration list for PBXNativeTarget "HBSCHomework" */;
 			buildPhases = (
+				E9D03FE9CD2261378EB18A6C /* [CP] Check Pods Manifest.lock */,
 				248D78642F1A281E00106D14 /* Sources */,
 				248D78652F1A281E00106D14 /* Frameworks */,
 				248D78662F1A281E00106D14 /* Resources */,
+				248D123E2F1B39890069C02B /* Embed Frameworks */,
+				F1D347D2EEC75E14DAFC1653 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -77,11 +175,55 @@
 				248D786A2F1A281E00106D14 /* HBSCHomework */,
 			);
 			name = HBSCHomework;
-			packageProductDependencies = (
-			);
 			productName = HBSCHomework;
 			productReference = 248D78682F1A281E00106D14 /* HBSCHomework.app */;
 			productType = "com.apple.product-type.application";
+		};
+		24CE56612F1BDBC00083F6B6 /* HBSCHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CE566A2F1BDBC00083F6B6 /* Build configuration list for PBXNativeTarget "HBSCHomeworkTests" */;
+			buildPhases = (
+				1EF1D01F03237F2886843CB2 /* [CP] Check Pods Manifest.lock */,
+				24CE565E2F1BDBC00083F6B6 /* Sources */,
+				24CE565F2F1BDBC00083F6B6 /* Frameworks */,
+				24CE56602F1BDBC00083F6B6 /* Resources */,
+				54A259A7C160F45CE918B003 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CE56672F1BDBC00083F6B6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				24CE56632F1BDBC00083F6B6 /* HBSCHomeworkTests */,
+			);
+			name = HBSCHomeworkTests;
+			productName = HBSCHomeworkTests;
+			productReference = 24CE56622F1BDBC00083F6B6 /* HBSCHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24CE56BD2F1BE1FE0083F6B6 /* HBSCHomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CE56C62F1BE1FE0083F6B6 /* Build configuration list for PBXNativeTarget "HBSCHomeworkUITests" */;
+			buildPhases = (
+				24CE56BA2F1BE1FE0083F6B6 /* Sources */,
+				24CE56BB2F1BE1FE0083F6B6 /* Frameworks */,
+				24CE56BC2F1BE1FE0083F6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CE56C52F1BE1FE0083F6B6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				24CE56BF2F1BE1FE0083F6B6 /* HBSCHomeworkUITests */,
+			);
+			name = HBSCHomeworkUITests;
+			packageProductDependencies = (
+			);
+			productName = HBSCHomeworkUITests;
+			productReference = 24CE56BE2F1BE1FE0083F6B6 /* HBSCHomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +238,14 @@
 					248D78672F1A281E00106D14 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
+					24CE56612F1BDBC00083F6B6 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 248D78672F1A281E00106D14;
+					};
+					24CE56BD2F1BE1FE0083F6B6 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 248D78672F1A281E00106D14;
+					};
 				};
 			};
 			buildConfigurationList = 248D78632F1A281E00106D14 /* Build configuration list for PBXProject "HBSCHomework" */;
@@ -104,6 +254,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 248D785F2F1A281E00106D14;
 			minimizedProjectReferenceProxies = 1;
@@ -113,6 +264,8 @@
 			projectRoot = "";
 			targets = (
 				248D78672F1A281E00106D14 /* HBSCHomework */,
+				24CE56612F1BDBC00083F6B6 /* HBSCHomeworkTests */,
+				24CE56BD2F1BE1FE0083F6B6 /* HBSCHomeworkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +278,110 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24CE56602F1BDBC00083F6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CE56BC2F1BE1FE0083F6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EF1D01F03237F2886843CB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBSCHomeworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A259A7C160F45CE918B003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBSCHomeworkTests/Pods-HBSCHomeworkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBSCHomeworkTests/Pods-HBSCHomeworkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBSCHomeworkTests/Pods-HBSCHomeworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D03FE9CD2261378EB18A6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBSCHomework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D347D2EEC75E14DAFC1653 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBSCHomework/Pods-HBSCHomework-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBSCHomework/Pods-HBSCHomework-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBSCHomework/Pods-HBSCHomework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		248D78642F1A281E00106D14 /* Sources */ = {
@@ -135,16 +391,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24CE565E2F1BDBC00083F6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CE56BA2F1BE1FE0083F6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24CE56672F1BDBC00083F6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 248D78672F1A281E00106D14 /* HBSCHomework */;
+			targetProxy = 24CE56662F1BDBC00083F6B6 /* PBXContainerItemProxy */;
+		};
+		24CE56C52F1BE1FE0083F6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 248D78672F1A281E00106D14 /* HBSCHomework */;
+			targetProxy = 24CE56C42F1BE1FE0083F6B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		248D787C2F1A282100106D14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C74509F9831089DE7E08DB /* Pods-HBSCHomework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5NQV75598;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HBSCHomework/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -171,11 +456,13 @@
 		};
 		248D787D2F1A282100106D14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF591D44209E59E661E6822C /* Pods-HBSCHomework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5NQV75598;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HBSCHomework/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -237,7 +524,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -252,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -300,7 +587,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -309,13 +596,105 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24CE56682F1BDBC00083F6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FF982AD006DB2B3FE2B50D /* Pods-HBSCHomeworkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5NQV75598;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenxi.tests.HBSCHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBSCHomework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HBSCHomework";
+			};
+			name = Debug;
+		};
+		24CE56692F1BDBC00083F6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DD8255420887930962B259 /* Pods-HBSCHomeworkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5NQV75598;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenxi.tests.HBSCHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBSCHomework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HBSCHomework";
+			};
+			name = Release;
+		};
+		24CE56C72F1BE1FE0083F6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5NQV75598;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenxi.tests.HBSCHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HBSCHomework;
+			};
+			name = Debug;
+		};
+		24CE56C82F1BE1FE0083F6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5NQV75598;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chenxi.tests.HBSCHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HBSCHomework;
 			};
 			name = Release;
 		};
@@ -336,6 +715,24 @@
 			buildConfigurations = (
 				248D787C2F1A282100106D14 /* Debug */,
 				248D787D2F1A282100106D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CE566A2F1BDBC00083F6B6 /* Build configuration list for PBXNativeTarget "HBSCHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CE56682F1BDBC00083F6B6 /* Debug */,
+				24CE56692F1BDBC00083F6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CE56C62F1BE1FE0083F6B6 /* Build configuration list for PBXNativeTarget "HBSCHomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CE56C72F1BE1FE0083F6B6 /* Debug */,
+				24CE56C82F1BE1FE0083F6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
